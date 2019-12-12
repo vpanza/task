@@ -1,0 +1,51 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per ulteriori informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+    // {
+    //     "type": "chrome",
+    //     "request": "attach",
+    //     "name": "Attach to Chrome",
+    //     "port": 9222,
+    //     "webRoot": "${workspaceFolder}"
+    // },
+    // {
+    //     "name": "Launch localhost",
+    //     "type": "chrome",
+    //     "request": "launch",
+    //     "url": "http://localhost:3000/public/",
+    //     "webRoot": "${workspaceFolder}/wwwroot"
+    // },
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+         },
+         {
+            "name": "Attach to Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000/public/",
+            "webRoot": "${workspaceFolder}"
+            //"file": "${workspaceFolder}/index.php"
+        },
+        // {
+        //     "name": "Launch index.html",
+        //     "type": "chrome",
+        //     "request": "launch",
+        //     "file": "${workspaceFolder}/index.php"
+        // },
+        // {
+        //     "name": "Launch currently open script",
+        //     "type": "php",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "cwd": "${fileDirname}",
+        //     "port": 9000
+        // }
+    ]
+}

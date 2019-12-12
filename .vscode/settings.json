@@ -1,0 +1,147 @@
+{
+  "es6-css-minify.minifyOnSave": true,
+  "crane.saveCache": false,
+  "files.associations": {
+    "*.html": "twig"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.activationOnLanguage": [
+    "*"
+  ],
+  "auto-close-tag.fullMode": true,
+  "highlight-matching-tag.enabled": true,
+  "highlight-matching-tag.showPath": true,
+  "highlight-matching-tag.showRuler": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  //"highlight-matching-tag.styles":	{ opening: { name: { underline: 'yellow' } } }	
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "underline": "yellow"
+      },
+      "right": {
+        "surround": "#155FFA"
+      },
+      "name": {
+        "highlight": "rgba(180, 20, 80, 0.3)"
+      }
+    },
+    "closing": {
+      "full": {
+        "custom": {
+          "dark": {
+            "borderWidth": "0 0 1px 0",
+            "borderColor": "white",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          },
+          "light": {
+            "borderWidth": "0 0 1px 0",
+            "borderColor": "brown",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          }
+        }
+      }
+    }
+  },
+  "tslint.enable": false,
+  "tslint.jsEnabl": false,
+  "css.remoteStyleSheets": [
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+  ],
+  "css.fileExtensions": [
+    "css",
+    "scss"
+  ],
+  // Enable/Disable ActiveFileInStatusBar
+  "ActiveFileInStatusBar.enable": true,
+  // Show fullpath or relative path in status bar.
+  "ActiveFileInStatusBar.fullpath": true,
+  // Reveal the active file in the file system. 
+  "ActiveFileInStatusBar.revealFile": false,
+  "clang-format.executable": "I:\\cygwin64\\home\\Liapunov\\node_modules\\clang-format\\bin\\win32\\clang-format.exe",
+  "php.validate.executablePath": "F:\\php-7.2.5-Win32-VC15-x64\\php.exe",
+  "php.executablePath": "F:\\php-7.2.5-Win32-VC15-x64\\php.exe",
+  "phan.phpExecutablePath": "F:\\php-7.2.5-Win32-VC15-x64\\php.exe",
+  "php-project.automaticRestart": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "F:\\php-7.2.5-Win32-VC15-x64\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "gotoSymbolStack.currentStackPosition": 0,
+  "gotoSymbolStack.maxStackPosition": 0,
+  "gotoSymbolStack.filePositionInfo": [],
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+  "editor.renderIndentGuides": true,
+  "gitProjectManager.baseProjectsFolders": [
+    "I:\\cygwin64\\home\\Liapunov\\pcrm"
+  ],
+  "phan.phpExecutablePath": "F:\\php-7.2.5-Win32-VC15-x64\\php.exe",
+  "phpfmt.php_bin": "F:\\php-5.6.39-nts-Win32-VC11-x64\\php.exe",
+  "[php]": {
+    "editor.formatOnSave": false
+},
+"phpfmt.passes": [
+  "PSR2KeywordsLowerCase",
+  "PSR2LnAfterNamespace",
+  "PSR2CurlyOpenNextLine",
+  "PSR2ModifierVisibilityStaticOrder",
+  "PSR2SingleEmptyLineAndStripClosingTag",
+  "ReindentSwitchBlocks"
+],
+"phpfmt.exclude": [
+  "ReindentComments",
+  "StripNewlineWithinClassBody"
+],
+"phpfmt.psr2": false,
+  "twigcs.enable": true,
+  "twigcs.enabledWarning": true,
+  "twigcs.executablePath": "I:\\cygwin64\\home\\Liapunov\\pcrm\\vendor\\allocine\\twigcs\\bin\\twigcs",
+  "phpcs.executablePath": "I:\\cygwin64\\home\\Liapunov\\.composer\\vendor\\squizlabs\\php_codesniffer\\bin\\phpcs",
+  "phpcs.showWarnings": false,
+  "phpcs.enable": false,
+  "jscs.enable": true,
+  "jscs.preset": "jquery",
+  "doiuse.enable": true,
+  "php.suggest.basic": true,
+  // List of glob patterns that determine where Font Awesome 5 Autocomplete will provide suggestions.
+  "fontAwesomeAutocomplete.patterns": [
+    "**/*.html"
+  ],
+  // Background color of a Font Awesome icon preview. Supports any valid CSS color.
+  "fontAwesomeAutocomplete.preview.backgroundColor": "#ffffff",
+  // Foreground color of a Font Awesome icon preview. Supports any valid CSS color.
+  "fontAwesomeAutocomplete.preview.foregroundColor": "#000000",
+  //"phpmd.command": "I:/cygwin64/home/Liapunov/.composer/vendor/phpmd/phpmd/src/bin/phpmd.bat"
+  // Useful if you aren't already using another extension. Off by default.
+  // for "Go To Definition" and "Go To Type Definition"
+  "phan.enableGoToDefinition": true,
+  // Enable unused variable detection
+  // (off by default. This can also be enabled in `.phan/config.php`
+  // by `"unused_variable_detection" => true,`)
+  "phan.unusedVariableDetection": true,
+  // Files which this should analyze
+  "phan.analyzedFileExtensions": [
+    "php"
+  ],
+  "atlascode.jira.workingSite": {
+    "baseUrlSuffix": "atlassian.net"
+  },
+ 
+}
